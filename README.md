@@ -13,12 +13,6 @@ The model integrates:
 - Internal logistics modeled via simplified transport trips.
 - Cost minimization and feasibility trade-offs via heuristics.
 
-### Structure
-- `/milp/`: GAMS/GAMSPy formulation of the base MILP.
-- `/heuristic/`: Python implementation of NSGA-II and related tools.
-- `/data/`: Input data (Excel, CSV) for demand, travel times, capacities.
-- `/notebooks/`: Analysis and visualization of solutions.
-
 ### Motivation
 This tool supports data-driven reforestation operations by generating feasible, cost-effective schedules under real-world field constraints.
 
